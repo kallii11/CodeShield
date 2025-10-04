@@ -1,0 +1,45 @@
+{
+  "score_max": 5000,
+  "syscalls": {
+    "open": 0,
+    "openat": 0,
+    "creat": 1,
+    "write": 2,
+    "read": 0,
+    "close": 0,
+    "unlink": 3,
+    "rename": 3,
+    "pipe": 1,
+    "pipe2": 1,
+    "dup": 0,
+    "dup2": 0,
+    "dup3": 0,
+    "execve": 2
+  },
+  "diretorios": {
+    "/home/": 2,
+    "/root/": 3,
+    "/var/www/": 2,
+    "/etc/": 3,
+    "/tmp/": 0
+  },
+  "whitelist": [
+    "systemd*",
+    "bash",
+    "sshd",
+    "cron*",
+    "nginx*",
+    "postgres*",
+    "rsync",
+    "cp",
+    "mv",
+    "gnome-shell",
+    "gnome-terminal-",
+    "snap",
+    "snapd",
+    "firefox",
+    "snapd-desktop-i",
+    "apache2"
+  ]
+}
+
