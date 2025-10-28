@@ -1,4 +1,9 @@
- # Instalação e Compilação
+# Projeto acadêmico CodeShield  
+
+Detector e interceptador de ramsonwares desenvolvido em C e C++ utilizando tecnologia eBPF e monitoramento de systemcalls contínuo.
+
+ 
+ ## Instalação e Compilação
  
  ## Pré-requisitos
  - Ubuntu na última versão instalado.
